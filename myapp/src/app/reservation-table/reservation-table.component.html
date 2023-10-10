@@ -1,0 +1,28 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nr.</th>
+            <th scope="col">Typ</th>
+            <th scope="col">Beschreibung</th>
+            <th scope="col"><i class="fa fa-user"></i></th>
+            <th scope="col"><i class="fa fa-user"></i><i class="fa fa-user"></i></th>
+            <th scope="col"><i class="fa fa-user"></i><i class="fa fa-user"></i><i class="fa fa-user"></i></th>
+            <th scope="col">Buchen</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">5</th>
+            <td>Doppelzimmer</td>
+            <td>ein sehr schönes zimmer mit balkon...</td>
+            <td><input class="form-check-input" (click)="checkRadio1(50)" name="zim5" type="radio" /><br>50€</td>
+            <td><input class="form-check-input" (click)="checkRadio2(70)" name="zim5" type="radio" /><br>70€</td>
+            <td><input class="form-check-input" (click)="checkRadio3(110)" name="zim5" type="radio" /><br> 110€</td>
+            <td><input class="form-check-input" type="checkbox" /> <br> {{price}}</td>
+        </tr>
+        <tr>
+            <td colspan="6"></td>
+            <td><a href="#" class="btn btn-primary">Weiter</a></td>
+        </tr>
+    </tbody>
+</table>
